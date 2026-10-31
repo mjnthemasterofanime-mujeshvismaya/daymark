@@ -1,0 +1,7 @@
+/* Desktop: sidebar navigation */
+@media(min-width:900px){
+#app{max-width:960px;flex-direction:row-reverse}
+nav{flex-direction:column;width:210px;border-top:0;border-right:1px solid var(--bd);justify-content:flex-start;padding-top:24px}
+nav button{flex:none;flex-direction:row;gap:12px;font-size:15px;padding:12px 22px;justify-content:flex-start}
+.fab{right:28px;bottom:28px}
+}

@@ -1,0 +1,5 @@
+/* Theme tokens: light, dark (system), dark (manual) */
+:root{--bg:#F7F6F2;--bg2:#fff;--card:#fff;--tx:#242424;--tx2:#858585;--ac:#A58B5C;--bd:#E8E5DE;--ok:#6b8f6b;--hi:#c0594a;
+color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101114;--bg2:#191A1E;--card:#202126;--tx:#F5F2EA;--tx2:#999A9E;--ac:#D6BD86;--bd:#303137;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101114;--bg2:#191A1E;--card:#202126;--tx:#F5F2EA;--tx2:#999A9E;--ac:#D6BD86;--bd:#303137;color-scheme:dark}
